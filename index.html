@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pacman</title>
+    <link rel="stylesheet" href="./dist/assets/css/style.css">
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.18.1/dist/phaser.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant|Cormorant+Garamond|Cormorant+Infant" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--Navigation Bar Begins-->
+    <nav>
+        <div class="nav-wrapper">
+            <div class="container">
+                <ul class="right">
+                    <li><a href="http://localhost:3000/">ABOUT</a></li>
+                    <li><a href="http://localhost:3000/eduction">EDUCATION</a></li>
+                    <li><a href="http://localhost:3000/blog">BLOG</a></li>
+                    <li><a href="http://localhost:3000/contact">CONTACT</a></li>
+                    <li><a href="http://localhost:3000/FAQ">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script src="js/GameMenue.js"></script>
+
+    <footer id="footer" class="page-footer">
+        <div class="container"></div>
+        <div class="footer-copyright">
+            <div class="container" align="center">
+                <p style="color: gray"> GirlCode © Copyright 2019 - All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h4 id="title">Modal Header</h4>
+            <p id="description">A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+            <a id="resume" class="modal-close waves-effect waves-green btn-flat">close</a>
+        </div>
+    </div>
+    <!-- Modal game over Structure -->
+    <div id="gameOver" class="modal">
+        <div class="modal-content">
+            <h4>Game Over</h4>
+            <p>Ohhh Nooo you lost</p>
+        </div>
+        <div class="modal-footer">
+            <a href="html" class="modal-close waves-effect waves-green btn-flat">close</a>
+        </div>
+    </div>
+</body>
+
+</html>
